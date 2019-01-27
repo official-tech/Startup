@@ -82,13 +82,26 @@ print("Hello Mr/Miss ", _first, _last)
 
 
 ********************************************************************************************
+
 # Another way to write 6
 _string, __string = input("1.Integer = "), input("2.Integer = ")
 print("Before swapping ", _string, __string)
 _string, __string = __string, _string
 print("After swapping ", _string, __string)
 
+#################################################################################################################################
 
+# 7.Program to accept a string value and convert the string value to int 
+_string_ = print("Integer value is ",int(input("String value: ")))
+
+************************************************************************************************
+
+# Another way to write 7
+_string_ = input("String value: ") #input from keyboard, here, by default whatever input() take is string value
+print(type(_string_)) #
+_string = int(_string_) #typecasting, string to integer
+print("Integer ", _string)
+print(type(_string))
 
 
 
