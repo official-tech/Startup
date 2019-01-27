@@ -6,20 +6,20 @@ print("Welcome to official-tech")
 # 2.Program to accept input and display message
 print("Welcome",input("Please Enter your name: "))
 
-**************************************************
+****************************************************************************************************
 
 # Another way to write 2
 name = input("Enter your name: ")
 print("Welcome back ",name)
 
-###############################################################################################################################
+##########################################################################################################################################
 
 # 3.Program to accept two numbers and perform Addition, Multiplication, Substraction, Division
 a, b = int(input("First Integer: ")), int(input("Second Integer: "))
 print('addition', a+b,'\nsubtract',a-b,'\nmultiplication',a*b,'\ndivide',a/b)
 # You can write any variable name
 
-****************************************************************************
+*******************************************************************************************************
 
 # Another way to write 3
 var1, var2 = int(input("First Integer: ")), int(input("Second Integer: "))
@@ -39,18 +39,17 @@ sub = print("Subtraction of var1&var2 is ", var1 - var2)
 print()
 div = print("Division of var1&var2 is ", var1 / var2)
 
-##################################################################################################
+#################################################################################################################################
 
 # 4.Program to find the type of a Variable
 _int, _float, _str, _bool,  = 10, 20.33, 'official-tech', True
 print(type(_int), type(_float), type(_str), type(_bool))
 
-****************************************************************************************************************************************
-
+******************************************************************************************
 # Another way to write 4
 type(print("This is None Type"))
 
-****************************************************************************
+******************************************************************************************
 
 # Another way to write 4
 _int = 944
@@ -97,14 +96,30 @@ _string_ = print("Integer value is ",int(input("String value: ")))
 ************************************************************************************************
 
 # Another way to write 7
-_string_ = input("String value: ") #input from keyboard, here, by default whatever input() take is string value
-print(type(_string_)) #
-_string = int(_string_) #typecasting, string to integer
+_string_ = input("String value: ") # input from keyboard, here, by default whatever input() take is string value
+print(type(_string_)) 
+_string = int(_string_) # typecasting, string to integer
 print("Integer ", _string)
 print(type(_string))
 
+######################################################################################################################################
 
+#8.Program to accept student details and calculate total marks, avarage marks
+name,marks1,marks2,marks3 = input("Name: "), int(input("Marks in A: ")), int(input("Marks in B: ")), int(input("Marks in C: "))
+ttl = marks1+marks2+marks3
+avg = ttl/3
+print(name, "your total marks is",ttl,"and avarage is",avg)
 
+*******************************************************************************************************
+# Another way to write 8
+name = input("Your name: ")
+marks1 = float(input("Marks in subject A: "))
+marks2 = float(input("Marks in subject B: "))
+marks3 = float(input("Marks in subject C: "))
+print()
+total = (marks1+marks2+marks3)
+avrg = total/3
+print(name, "your total marks is", total , "and Avarage is", avrg)
 
 
 
