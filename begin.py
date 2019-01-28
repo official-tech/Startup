@@ -122,13 +122,9 @@ avrg = total/3
 print(name, "your total marks is", total , "and Avarage is", avrg)
 
 
+#######################################################################################################################################
 
-
-
-
-
-
-
-
-
-
+# 9.Program to accept a double value and convert the double value to str
+doub = input("Enter the Float/Double value:")
+print(str(doub))
+print(type(doub))
