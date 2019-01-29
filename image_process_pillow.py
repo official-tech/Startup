@@ -9,10 +9,28 @@ from PIL import Image
 a = Image.open("image_name.jpg")
 a.show()
 
+####################################################
 
-b = a.rotate(45)
+from PIL import Image
+a = Image.open("image_name.jpg")
+b = a.rotate(45) # rotating image at 45 degree
 b.show()
 
+##############################################################
 
-c = a.convert("L")
+from PIL import Image
+a = Image.open("image_name.jpg")
+c = a.convert("L") # convert image color into gray scale image 
 c.show()
+
+########################################################
+
+from PIL import Image
+a = Image.open("image_name.jpg")
+print(a.size) # to get width and height of image
+
+#######################################################
+
+from PIL import Image
+a = Image.open("image_name.jpg")
+print(a.mode) # to get the color modde of image 
