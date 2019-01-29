@@ -34,3 +34,14 @@ print(a.size) # to get width and height of image
 from PIL import Image
 a = Image.open("image_name.jpg")
 print(a.mode) # to get the color modde of image 
+
+#######################################################
+
+# Program to read image name from user and save the image with new name
+
+from PIL import Image as im
+name = input("Name of the image which you want to open: ").strip()
+_open = im.open(name)
+new_name = input("New name to the image :").strip()
+_open.save(new_name)
+print("Image saved!")
